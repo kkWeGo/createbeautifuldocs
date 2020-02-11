@@ -26,8 +26,7 @@ SECRET_KEY = '#jr39+jr0mznaeo9=%)6d8hb3rmm!brwxxaabr5rstfj8-^=qq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'createbeautifuldocs.herokuapp.com']
 
 # Application definition
 
@@ -74,13 +73,8 @@ WSGI_APPLICATION = 'publisher.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+# 
+# Value set in module local.py and production.py
 
 
 # Password validation
