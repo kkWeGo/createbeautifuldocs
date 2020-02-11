@@ -1,7 +1,13 @@
+#cache
 *.pyc
+
+# db and logs
 *.log
 *.sql
 *.sqlite
+*.sqlite3
+
+# system files
 .DS_Store
 .DS_Store?
 ._*
